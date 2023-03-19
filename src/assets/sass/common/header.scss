@@ -2,22 +2,37 @@
 .header {
     padding-top: 96px;
 
-    &__container {
+    &__nav {
         display: flex;
         justify-content: space-between;
-        align-items: center;
+        align-items: flex-end;
+        
     }
 
     &__nav-row {
         display: flex;
         justify-content: space-between;
-        align-items: center;
+        align-items: flex-start;
         gap: 33px;
 
         @media (max-width: $tablet) {
             display: none;
 
         }
+    }
+
+    &__nav-row1 {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-end;
+        gap: 38px;
+
+        @media (max-width: $tablet) {
+            display: none;
+
+        }
+
+        
     }
 
     &__nav-label {
@@ -33,21 +48,11 @@
         }
     }
 
-    &__nav-link {
+    &__nav-link, &__nav-link1 {
         cursor: pointer;
 
         &:hover {
             color: $color-green;
-        }
-    }
-
-    &__nav-item {
-        border-bottom: 1px solid transparent;
-
-       
-
-        &--active {
-            border-bottom: 1px solid $color-green;
         }
     }
 
