@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@500;600;700&display=swap');
+
+$main-fonts: 'Poppins', sans-serif;
+$sub-fonts: 'Open Sans', sans-serif;
+
+.title {
+    font-family: $main-fonts;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 64px;
+    letter-spacing: 0.05em;
+
+    @media (max-width: $tablet) {
+        font-size: 33px;
+        line-height: 50px;
+    }
+}
+
+.h6 {
+    font-family: $sub-fonts;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    color: $color-black;
+    }
+
+.h9 {
+    font-family: $sub-fonts;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 20px;
+    letter-spacing: 0.1em;
+}
