@@ -1,16 +1,17 @@
 .button {
     border: none;
-    font-family: $sub-fonts;
-    cursor: pointer;
     display: flex;
     justify-content: center;
     align-items: center;
+    font-family: $main-fonts;
+    font-style: normal;
     font-weight: 700;
-    font-size: 16px;
-    line-height: 27px;
-    letter-spacing: 0.1em;
-    width: 160px;
-    height: 45px;
+    font-size: 15px;
+    line-height: 22px;
+    color: $color-black;
+    width: 179px;
+    height: 48px;
+    cursor: pointer;
     
     transition: background-color 0.5s;
 
@@ -18,9 +19,23 @@
 
     &--icon {
         &::after {
-            content: '→';
-            font-size: 20px;
-            padding-left: 8px;
+            content: '>';
+            width: 16px;
+            height: 20px;
+            font-size: 22px;
+            padding-left: 6px;  
+         
+        }
+    }
+    
+    &--icons {
+        &::after {
+            content: '>';
+            width: 16px;
+            height: 20px;
+            font-size: 22px;
+            padding-left: 6px; 
+            color: $color-green1; 
          
         }
     }

@@ -21,15 +21,15 @@
 
                     <ul class="header__nav-row">
                         <li class="header__nav-item">
-                            <a class="h6 header__nav-link" href="/">Chat with us</a>
+                            <a class="h7 header__nav-link" href="/">Chat with us</a>
                         </li>
                         <li class="header__nav-link">
-                            <a class="h6 header__nav-link" href="tel:+420 336 775 664">
+                            <a class="h7 header__nav-link" href="tel:+420 336 775 664">
                                 +420 336 775 664
                             </a>
                         </li>
                         <li class="header__nav-link">
-                            <a class="h6 header__nav-link" href="mailto:info@freshnesecom.com">
+                            <a class="h7 header__nav-link" href="mailto:info@freshnesecom.com">
                                 info@freshnesecom.com
                             </a>
                         </li>
@@ -37,13 +37,13 @@
 
                     <ul class="header__nav-row1">
                         <li class="header__nav-item1">
-                            <a class="h6 header__nav-link1" href="./pages/about.html">Blog</a>
+                            <a class="h7 header__nav-link1" href="./pages/about.html">Blog</a>
                         </li>
                         <li class="header__nav-item1">
-                            <a class="h6 header__nav-link1" href="./pages/works.html">About us</a>
+                            <a class="h7 header__nav-link1" href="./pages/works.html">About us</a>
                         </li>
                         <li class="header__nav-item1">
-                            <a class="h6 header__nav-link1" href="./pages/blog.html">Careers</a>
+                            <a class="h7 header__nav-link1" href="./pages/blog.html">Careers</a>
                         </li>
                     </ul>
 
@@ -51,62 +51,113 @@
 
                 <img class="header__img" src="./img/logo.svg" alt="Logo">
             
+            
 
             </div>
         </header>
 
         <main class="home-page">
-            <section>
-                <div class="container">
-                    <h1>Home</h1>
+            <section class="menu">
+                <div class="container menu__container">
+                    <select class="h5 menu__item" name="Bakery" id="">
+                        <option value="Bakery">Bakery</option>
+                        <option value="Bakery1">Bakery1</option>
+                    </select>
+                    <select class=" h5 menu__item" name="Fruit and vegetables" id="">
+                        <option value="Fruit and vegetables">Fruit and vegetables</option>
+                        <option value="Fruit and vegetables1">Fruit and vegetables1</option>
+                    </select>
+                    <select class="h5 menu__item" name="Meat and fish" id="">
+                        <option value="Meat and fish">Meat and fish</option>
+                        <option value="Meat and fish1">Meat and fish1</option>
+                    </select>
+                    <select class="h5 menu__item" name="Drinks" id="">
+                        <option value="Drinks">Drinks</option>
+                        <option value="Drinks1">Drinks1</option>
+                    </select>
+                    <select class="h5 menu__item" name="Kitchen" id="">
+                        <option value="Kitchen">Kitchen</option>
+                        <option value="Kitchen1">Kitchen1</option>
+                    </select>
+                    <select class="h5 menu__item" name="Special nutrition" id="">
+                        <option value="Special nutrition">Special nutrition</option>
+                        <option value="Special nutrition1">Special nutrition1</option>
+                    </select>
+                    <select class="h5 menu__item" name="Baby" id="">
+                        <option value="Baby">Baby</option>
+                        <option value="Baby1">Baby1</option>
+                    </select>
+                    
+                    <select class="h5 menu__item" name="Pharmacy" id="">
+                        <option value="Pharmacy">Pharmacy</option>
+                        <option value="Pharmacy1">Pharmacy1</option>
+                    </select>
 
-                    <button id="btn1" class="button button--icon">
-                        Send
-                    </button>
 
-                    <div class="home-page__modal-container">
-                        <div class="home-page__modal">
-                            <div class="home-page__modal-close">X</div>
-                            <h2 class="title home-page__modal-title">
-                                Contact Us
-                            </h2>
-                            <p class="h6 home-page__modal-text">
-                                If you need our help with your user account, have questions about how to use the
-                                platform or are
-                            </p>
-                            <form class="form" action="" netlify>
-
-                                <div class="form__fields">
-                                    <span class="form__tilte">Name*</span>
-                                    <input class="form__input" type="text" placeholder="Walter Moss" required>
-                                </div>
-
-                                <div class="form__fields">
-                                    <span class="form__tilte">Email*</span>
-                                    <input class="form__input" type="email" placeholder="Walter Moss" required>
-                                </div>
-
-                                <div class="form__fields">
-                                    <select class="form__input" name="Reason for contact" id="">
-                                        <option value="1">Reason for contact</option>
-                                        <option value="2">Ukraine</option>
-                                        <option value="3">USA</option>
-                                        <option value="4">Italy</option>
-                                    </select>
-                                </div>
-
-                                <div class="form__fields">
-                                    <span class="form__tilte">Message*</span>
-                                    <input class="form__input" type="text" placeholder="Walter Moss" required>
-                                </div>
-
-                                <button type="submit" class="button">
-                                    Send
-                                </button>
-                            </form>
-                        </div>
-                    </div>
+                   
                 </div>
+            </section>
+
+            <section class="component">
+                <div class="container component__container">
+                    <div class="component__list">
+                        <h4 class="h4 component__list-name">Category menu</h4>
+                        <ul class="component__list-row">
+                            <li class="h8 component__list-row-item">Bakery</li>
+                            <li class="h8 component__list-row-item">Fruit and vegetables</li>
+                            <li class="h8 component__list-row-item">Meat and fish</li>
+                            <li class="h8 component__list-row-item">Drinks</li>
+                            <li class="h8 component__list-row-item">Kitchen</li>
+                        </ul>
+
+                        <button class="button component__list-button button--icon">More categories</button>
+
+
+                    </div>
+
+                    <div class="component__card">
+                        <p class="h6 component__card-name ">Banner subfocus</p>
+                        <h3 class="h3 component__card-title">Space for heading</h3>
+                        <button class="button component__card-button button--icons">Read recepies</button>
+
+                    </div>
+                    <div class="component__card">
+                        <p class="h6 component__card-name ">Banner subfocus</p>
+                        <h3 class="h3 component__card-title">Space for heading</h3>
+                        <button class="button component__card-button button--icons">Read recepies</button>
+
+                    </div>
+
+                </div>
+
+            </section>
+
+            <section class="products">
+                <div class="container products__container">
+                    <div class="products__list">
+                        <h4 class="h4 products__list-name">Best selling products</h4>
+                        <ul class="products__list-row">
+                            <li class="h8 products__list-row-item">Kitchen</li>
+                            <li class="h8 products__list-row-item">Meat and fish</li>
+                            <li class="h8 products__list-row-item">Special nutrition</li>
+                            <li class="h8 products__list-row-item">Pharmacy</li>
+                            <li class="h8 products__list-row-item">Baby</li>
+                        </ul>
+
+                        <button class="button products__list-button button--icon">More categories</button>
+
+                    </div>
+
+                    <div class="products__card">
+                        <img class="products__card-img" src="./img/prod.png" alt="img">
+                        
+                    </div>
+
+
+
+
+                </div>
+
             </section>
         </main>
 
