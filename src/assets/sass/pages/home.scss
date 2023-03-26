@@ -153,6 +153,9 @@
 .products{
     &__container{
         padding: 64px 45px;
+        display: flex;
+        align-items: center;
+        gap: 32px;
     }
 
     &__list-name{
@@ -189,9 +192,44 @@
     }
 
     &__card-img{
-        width: 269px;
+        width: 237px;
         height: 180px;
+        padding-bottom: 16px;
     }
+     &__card {
+        padding: 16px;
+        width: 269px;
+        height: 323px;
+        background: $color-white;
+        border: 1px solid #D1D1D1;
+        border-radius: 12px;
+     }
+
+     &__card-price{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 65px;
+     }
+     &__card-title{
+        padding-bottom: 4px;
+     }
+     &__card-name{
+        padding-bottom: 16px;
+     }
+
+     &__card-price-button{
+        width: 90px;
+        height: 36px;
+        background: $color-green;
+        border: 2px solid $color-button;
+        border-radius: 12px;
+        color: $color-white;
+     }
+
+     
+     
+
 
 
 }
