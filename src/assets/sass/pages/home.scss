@@ -226,11 +226,159 @@
         border: 2px solid $color-button;
         border-radius: 12px;
         color: $color-white;
+        cursor: pointer;
+
+        &:hover {
+            transform: scale(1.1);
+            transition: .3s;
+
+        }
      }
+    }
 
-     
-     
 
+.farmers{
+        &__container{
+            padding: 64px 45px;
+            display: flex;
+            align-items: center;
+            gap: 32px;
+        }
+    
+        &__list-name{
+            padding-bottom: 16px;
+            width: 191px;
+        }
+    
+    
+        &__list-row{
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            gap: 12px;
+            padding-bottom: 48px;
+    
+        }
+    
+        &__list-row-item{
+            cursor: pointer;
+    
+            &:hover{
+                text-decoration-line: underline;
+                color: $color-green;
+            }
+    
+        }
+        &__list-button{
+            background: $color-grey1;
+            border-radius: 12px;
+    
+            &:hover{
+                background: $color-green;
+                color: $color-white;
+            }
+        }
+    
+        &__card-img{
+            width: 237px;
+            height: 180px;
+            padding-bottom: 16px;
+        }
+         &__card {
+            padding: 16px;
+            width: 269px;
+            height: 323px;
+            background: $color-white;
+            border: 1px solid #D1D1D1;
+            border-radius: 12px;
+         }
+    
+         &__card-price{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            gap: 65px;
+         }
+         &__card-title{
+            padding-bottom: 4px;
+         }
+         &__card-name{
+            padding-bottom: 16px;
+         }
+    
+         &__card-price-button{
+            width: 90px;
+            height: 36px;
+            background: $color-green;
+            border: 2px solid $color-button;
+            border-radius: 12px;
+            color: $color-white;
+            cursor: pointer;
+    
+            &:hover {
+                transform: scale(1.1);
+                transition: .3s;
+    
+            }
+         }
+
+}
+
+.customers {
+    &__container {
+        padding: 64px 45px;
+    }
+
+    &__row{
+        display: flex;
+        justify-content: space-between;
+        align-items:center;
+        margin: 64px 45px 32px 45px;
+    }
+
+    &__row-button{
+        background: none;
+    }
+
+    &__swiper-wrapper{
+        text-align: center;
+      font-size: 18px;
+      background: $color-white;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    &__swiper-slide{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        max-width: 369px;
+        background: $color-white;
+        border: 1px solid $color-white1;
+        border-radius: 12px;
+        padding: 24px 32px 0 32px;
+        
+        
+    }
+
+    &__swiper-slide-img{
+        display: block;
+        width: 48px;
+        height: 48px;
+        margin-bottom: 16px;
+        object-fit: cover;
+       
+    }
+    &__swiper-slide-title{
+        padding-bottom: 24px;
+        text-align: center;
+    }
+    &__swiper-slide-name{
+        margin-bottom: 16px;
+        color: $color-grey2;
+    }
 
 
 }
